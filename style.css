@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body {
+    font-family: 'Poppins';
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 5rem;
+    font-weight: 600;
+    padding: 0px;
+    margin: 0px;
+}
+
+h3 {
+    color: #ED1C24;
+}
+
+/* header */
+
+header>div {
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+    box-shadow: 0 4px 13px -3px rgba(0, 0, 0, 0.10196);
+}
+
+/* navigation */
+nav {
+    width: 600px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.search-total {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+.search-total a {
+    margin: 5px 0px;
+    text-decoration: none;
+    margin-right: 1rem;
+    color: #000;
+    font-size: .875rem;
+    font-weight: 500;
+}
+
+.search-flex-box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: flex-start;
+    margin: 7px 0;
+}
+
+.blackHeart {
+    width: 20px;
+    margin-right: 1rem;
+}
+
+.npm-logo {
+    width: 70px;
+    margin-right: 1rem;
+}
+
+.search-logo {
+    background: rgba(0, 0, 0, .05);
+    padding: 11.2px 5px 11.2px 12px;
+    background-size: 40px;
+    width: 18px;
+    height: 18px;
+}
+
+.search {
+    background-color: rgba(0, 0, 0, .05);
+    border: none;
+    height: 40px;
+    font-size: 16px;
+    width: 950px;
+}
+
+.search-btn {
+    height: 40px;
+    background-color: #fb3e44;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+    color: white;
+    padding: 8px 38px;
+    border: none;
+}
+
+.login-join-btn-flex-box {
+    display: flex;
+    font-weight: 200px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: flex-start;
+}
+
+.join-a {
+    padding: 3px 28px;
+    border: 1px solid #cccccc;
+    border-radius: 0;
+}
+
+/* Beginning of First section */
+#build {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(232, 217, 217, .3);
+    height: 300px;
+}
+
+.see-plans-btn {
+    padding: 16px 32px;
+    background-color: #FB3B49;
+    box-shadow: 8px 8px 0 rgba(251, 59, 73, .2);
+    margin-right: 50px;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+}
+
+.join-btn {
+    padding: 16px 32px;
+    background: white;
+    border: none;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+#build p {
+    margin: 0 auto 20px auto;
+    width: 60%;
+    text-align: center;
+}
+
+/* End First section */
+
+
+/* Beginning of Second section */
+#open-source {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#open-source h2 {
+    background-color: rgba(255, 204, 53, .4);
+    transform: skew(9deg, 0deg);
+    font-style: italic;
+
+}
+
+#open-source div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+#open-source p {
+    margin: 0 auto 20px auto;
+    width: 75%;
+    text-align: center;
+}
+
+.triangle {
+    width: 109px;
+    height: 96;
+    margin: 40px 0 15px 0;
+}
+
+
+/* End of Second section */
+
+
+
+/* Third section */
+
+#create p {
+    font-size: .875rem;
+}
+
+#create-flex-box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+
+.configuration-padrao {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 200px;
+}
+
+#create-flex-box img {
+    width: 68px;
+    height: 68px;
+
+}
+
+
+/* End of Third section */
+
+/* footer section */
+footer {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-start;
+}
+
+.org-btn {
+    padding: 16px 130px;
+    font-weight: 700;
+    font-size: 20px;
+    background-color: black;
+    box-shadow: 8px 8px 0 rgba(128, 83, 35, .2);
+    color: white;
+}
